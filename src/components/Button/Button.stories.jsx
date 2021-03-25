@@ -22,7 +22,7 @@ export default {
   title: 'Storybook Demo/Button',
   component: Button,
   argTypes: {
-    backgroundColor: { type: 'color' },
-    color: { type: 'color' },
+    backgroundColor: { control: 'color' },
+    color: { control: 'color' },
   }
 };
